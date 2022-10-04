@@ -11,3 +11,5 @@ app.use(cors())
 app.use(logger("dev"))
 
 app.use('/api', routes)
+
+export default app;

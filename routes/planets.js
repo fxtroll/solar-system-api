@@ -8,3 +8,5 @@ router.get("/planets/:planet", controllers.getPlanet)
 router.post("/planets", controllers.createPlanet)
 router.put("/planets/:id", controllers.updatePlanet)
 router.delete("/planets/:id", controllers.deletePlanet)
+
+export default router;

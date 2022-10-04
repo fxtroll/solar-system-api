@@ -1,4 +1,4 @@
-import Planet from "../models/planet";
+import Planet from "../models/planet.js";
 
 export const getPlanets = async (req, res) => {
   try {
